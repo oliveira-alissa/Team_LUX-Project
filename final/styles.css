@@ -1,0 +1,131 @@
+  .team_name{
+    text-shadow: -4x 4px 6px dimgrey;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .main{
+    background-image: url(img/pool_back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+   
+  }
+  .col-auto{
+   margin-right: 0;
+  }
+
+  .textBox{
+    color: rgb(0, 0, 0);
+    background-color: #f2f2f2cc;
+    text-align: center;
+    margin-top: 20vh;
+    width: 100%;
+    height: 50%;
+    padding-top: 40px;
+  }
+  .textBox ul li{
+    text-decoration: none;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    padding-bottom:10vh;
+  
+  }
+  .navbar-nav a{
+    display: block;
+    text-align: center;
+
+  }
+  .table td {
+    font-size: small;
+}
+
+ .question{
+  font-size: 18px;
+  font-weight: bold;
+ }
+
+.bg-navbar{
+  background-color: rgb(16, 16, 16);
+
+  
+}
+.form-inline{
+padding-left: 100px;
+}
+
+/*--------Style for Login Page*----------*/
+.container{
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+input[type="email"],input[type="text"],input[type="password"]{
+  width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+
+}
+
+
+.buttonLogin{
+  margin-top: 10px;
+  margin-left: 8px;
+  width: 100px;
+  height: 10%;
+  background-color: rgb(65, 162, 93);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+
+}
+
+/*--------Style for Activities Page*----------*/
+
+.column {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 30px ;
+}
+.row {
+padding-bottom: 20px;
+
+}
+a img{
+margin-left: 15px;
+margin-right: 15px; 
+justify-content: center;
+width: 500px;
+
+}
+a p{ 
+  text-align: center;
+}
+
+
+/*--------------------------------------------*/
+    #footer {
+     position:fixed;
+      bottom: 0;
+      width: 100%;
+      height: 50px;    
+      background-color: grey;  
+      font-size: 10px;   
+      padding: 15px 0px 0px 15px;
+      line-height: 0.2em;
+      color: #f2f2f2;
+      text-align: center;
+    }
+   
